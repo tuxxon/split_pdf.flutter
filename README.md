@@ -1,6 +1,6 @@
 # split_pdf
 
-A new Flutter project.
+Splitting a PDF into pdf pages by using mupdf. (SUPER FASTly)
 
 ## Getting Started
 
@@ -22,6 +22,5 @@ $ cd ../..
 $ pwd
 $ flutter run
 ```
-
 
 ### 4. look at this app on your android phone.
