@@ -1,0 +1,469 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Android - 21 - x86_64
+      The host system is: Darwin - 23.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang 
+      Build flags: 
+      Id flags: -c;--target=x86_64-none-linux-android21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ 
+      Build flags: 
+      Id flags: -c;--target=x86_64-none-linux-android21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-ElbgBB"
+      binary: "/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-ElbgBB"
+    cmakeVariables:
+      ANDROID_ABI: "x86_64"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "FALSE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions"
+      CMAKE_C_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-ElbgBB'
+        
+        Run Build Command(s): /Users/tuxxon/Library/Android/sdk/cmake/3.22.1/bin/ninja -v cmTC_674d7
+        [1/2] /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 650.9 -v -ffunction-sections -fdata-sections -resource-dir /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -fdebug-compilation-dir /Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-ElbgBB -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+        End of search list.
+        [2/2] : && /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -o cmTC_674d7  -latomic -lm && :
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_674d7 /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -latomic -lm /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include]
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include]
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        implicit include dirs: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-ElbgBB']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/tuxxon/Library/Android/sdk/cmake/3.22.1/bin/ninja -v cmTC_674d7]
+        ignore line: [[1/2] /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 650.9 -v -ffunction-sections -fdata-sections -resource-dir /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -fdebug-compilation-dir /Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-ElbgBB -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Qunused-arguments -Wl --no-undefined  -Wl --gc-sections -v CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -o cmTC_674d7  -latomic -lm && :]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_674d7 /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o -latomic -lm /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
+          arg [--sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znoexecstack] ==> ignore
+          arg [--warn-shared-textrel] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_674d7] ==> ignore
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_674d7.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        linker tool for 'C': /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld
+        remove lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        remove lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        implicit dirs: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" "-v"
+      LLD 12.0.8 (/Volumes/Android/buildbot/src/android/llvm-r416183/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee) (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-jxl9Zx"
+      binary: "/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-jxl9Zx"
+    cmakeVariables:
+      ANDROID_ABI: "x86_64"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "FALSE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-jxl9Zx'
+        
+        Run Build Command(s): /Users/tuxxon/Library/Android/sdk/cmake/3.22.1/bin/ninja -v cmTC_bb13c
+        [1/2] /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 650.9 -v -ffunction-sections -fdata-sections -resource-dir /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir /Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-jxl9Zx -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android
+         /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+        End of search list.
+        [2/2] : && /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bb13c  -static-libstdc++ -latomic -lm && :
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x
+        Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_bb13c /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include]
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+          add: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include]
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+        collapse include dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        implicit include dirs: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-jxl9Zx']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/tuxxon/Library/Android/sdk/cmake/3.22.1/bin/ninja -v cmTC_bb13c]
+        ignore line: [[1/2] /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple x86_64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 650.9 -v -ffunction-sections -fdata-sections -resource-dir /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir /Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/x86_64/CMakeFiles/CMakeScratch/TryCompile-jxl9Zx -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/include]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+        ignore line: [ /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Qunused-arguments -Wl --no-undefined  -Wl --gc-sections -v CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bb13c  -static-libstdc++ -latomic -lm && :]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
+        ignore line: [Found candidate GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Selected GCC installation: /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_bb13c /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
+          arg [--sysroot=/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znoexecstack] ==> ignore
+          arg [--warn-shared-textrel] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bb13c] ==> ignore
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+          arg [-L/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_bb13c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [-Bstatic] ==> search static
+          arg [-lc++] ==> lib [c++]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lm] ==> lib [m]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        linker tool for 'CXX': /Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld
+        remove lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        remove lib [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/x86_64-linux-android/4.9.x] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+        collapse library dir [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        implicit dirs: [/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/x86_64;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android;/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Users/tuxxon/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" "-v"
+      LLD 12.0.8 (/Volumes/Android/buildbot/src/android/llvm-r416183/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee) (compatible with GNU linkers)
+...

@@ -1,0 +1,15 @@
+# ninja log v5
+211	285	1716470560441295288	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/x86_64/libsplit_pdf.so	b13491432ce264ac
+0	210	1716470560391158891	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	4f37b8299f8f625b
+1	190	1716471189003111503	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	5b29372614dfc259
+190	252	1716471189049233194	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/x86_64/libsplit_pdf.so	c6b25e87d71dbd1c
+1	187	1716472121188531568	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	5b29372614dfc259
+188	249	1716472121233385013	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/x86_64/libsplit_pdf.so	c6b25e87d71dbd1c
+0	187	1716473178355732835	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	5b29372614dfc259
+188	248	1716473178400172651	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/x86_64/libsplit_pdf.so	c6b25e87d71dbd1c
+0	194	1716474036129908013	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	5b29372614dfc259
+194	255	1716474036174530993	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/x86_64/libsplit_pdf.so	c6b25e87d71dbd1c
+0	192	1716475516376436290	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	5b29372614dfc259
+192	254	1716475516423119076	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/x86_64/libsplit_pdf.so	c6b25e87d71dbd1c
+0	198	1716476369488717131	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	5b29372614dfc259
+198	264	1716476369537478712	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/x86_64/libsplit_pdf.so	c6b25e87d71dbd1c

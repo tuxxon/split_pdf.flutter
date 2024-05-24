@@ -1,0 +1,3 @@
+/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/arm64-v8a/CMakeFiles/split_pdf.dir
+/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/tuxxon/FlutterProjects/split_pdf/android/app/.cxx/RelWithDebInfo/1b2s4v6r/arm64-v8a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+# ninja log v5
+216	281	1716470559280468545	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/armeabi-v7a/libsplit_pdf.so	7ce4ccb5a5a81b29
+0	215	1716470559230476939	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	7bc08f89262e6f55
+0	197	1716471188423572414	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	e6674eb19c0c13ae
+197	259	1716471188470810509	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/armeabi-v7a/libsplit_pdf.so	a499719fe28a5b19
+1	192	1716472120663977004	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	e6674eb19c0c13ae
+192	251	1716472120709836129	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/armeabi-v7a/libsplit_pdf.so	a499719fe28a5b19
+0	193	1716473177828496573	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	e6674eb19c0c13ae
+193	252	1716473177874022735	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/armeabi-v7a/libsplit_pdf.so	a499719fe28a5b19
+0	195	1716474035602775175	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	e6674eb19c0c13ae
+195	254	1716474035647356988	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/armeabi-v7a/libsplit_pdf.so	a499719fe28a5b19
+0	192	1716475515843872131	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	e6674eb19c0c13ae
+192	251	1716475515889263744	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/armeabi-v7a/libsplit_pdf.so	a499719fe28a5b19
+1	206	1716476368918180694	CMakeFiles/split_pdf.dir/Users/tuxxon/FlutterProjects/split_pdf/clib/split_pdf.cpp.o	e6674eb19c0c13ae
+206	270	1716476368967106817	/Users/tuxxon/FlutterProjects/split_pdf/build/app/intermediates/cxx/Debug/6xmu5472/obj/armeabi-v7a/libsplit_pdf.so	a499719fe28a5b19
