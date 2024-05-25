@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
@@ -178,10 +180,14 @@ class _PdfSplitterState extends State<PdfSplitter> {
     const outputPrefix = 'page';
 
     // 진행 상황 콜백
-    void progressCallback(int currentPage, int totalPages) {
+    // 진행 상황 콜백
+    int progressCallback(int currentPage, int totalPages) {
       if (mounted) {
-        _progressNotifier.value = currentPage / totalPages;
+        setState(() {
+          _progressNotifier.value = currentPage / totalPages;
+        });
       }
+      return 0; // 성공적으로 완료된 경우 0 반환
     }
 
     // PDF 분할

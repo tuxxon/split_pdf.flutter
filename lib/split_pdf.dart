@@ -2,7 +2,7 @@ import 'dart:ffi';
 import 'dart:io';
 import 'package:ffi/ffi.dart';
 
-typedef ProgressCallbackNative = Void Function(
+typedef ProgressCallbackNative = Int32 Function(
     Int32 currentPage, Int32 totalPages);
 
 typedef SplitPdfNative = Void Function(
@@ -26,6 +26,9 @@ class SplitPdf {
   static late Pointer<NativeFunction<ProgressCallbackNative>> nativeCallback;
   static Function(int, int)? progressCallback;
 
+  // 예외 발생 시 반환할 상수 값을 지정합니다.
+  static const int exceptionalReturnValue = -1;
+
   SplitPdf() {
     if (Platform.isAndroid) {
       _lib = DynamicLibrary.open('libsplit_pdf.so');
@@ -41,14 +44,17 @@ class SplitPdf {
         .asFunction<GetPageCountDart>();
 
     // 콜백 함수 설정
-    nativeCallback =
-        Pointer.fromFunction<ProgressCallbackNative>(nativeProgressCallback);
+    nativeCallback = Pointer.fromFunction<ProgressCallbackNative>(
+      nativeProgressCallback,
+      exceptionalReturnValue,
+    );
   }
 
-  static void nativeProgressCallback(int currentPage, int totalPages) {
+  static int nativeProgressCallback(int currentPage, int totalPages) {
     if (progressCallback != null) {
-      progressCallback!(currentPage, totalPages);
+      return progressCallback!(currentPage, totalPages) == 0 ? 0 : -1;
     }
+    return -1;
   }
 
   void splitPdf(String inputFilename, String outputDirectory,
@@ -58,7 +64,9 @@ class SplitPdf {
     final outputPrefixPtr = outputPrefix.toNativeUtf8();
 
     // 콜백 함수 설정
-    SplitPdf.progressCallback = progressCallback;
+    SplitPdf.progressCallback = (currentPage, totalPages) {
+      return progressCallback(currentPage, totalPages);
+    };
 
     _splitPdf(inputPtr, outputDirPtr, outputPrefixPtr, nativeCallback);
 

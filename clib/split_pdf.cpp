@@ -6,7 +6,7 @@
 
 namespace fs = std::filesystem;
 
-typedef void (*ProgressCallback)(int currentPage, int totalPages);
+typedef int (*ProgressCallback)(int currentPage, int totalPages); // void에서 int로 변경
 
 int page_count = 0;
 
@@ -62,7 +62,10 @@ extern "C" void split_pdf(const char* input_filename, const char* output_directo
             }
 
             if (progressCallback) {
-                progressCallback(i + 1, page_count);
+                int callbackResult = progressCallback(i + 1, page_count); // 콜백 결과 받기
+                if (callbackResult != 0) { // 콜백 결과 처리
+                    throw std::runtime_error("Callback requested to stop processing");
+                }
             }
         }
 
